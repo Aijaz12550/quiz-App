@@ -1,0 +1,50 @@
+
+.Quiz-Container{
+    display: flex; 
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: space-around; 
+    margin-left: 40px;
+    width:100%;
+}
+.BottomProgress{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:'80%';
+    border:1px solid red;
+    border-radius: 10px;
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    transition: all linear 1s;
+
+}
+.Failure{
+    display: flex;
+    flex-grow: initial;
+    width:'330px';
+    background-color: black;
+    border-radius: 10px;
+    
+    transition: all linear 1s;
+}
+
+.future{
+    display: flex;
+    flex-grow: initial;
+    width:'330px';
+    background-color: rgb(5, 3, 3);
+    transition: all linear 1s;
+    border-radius: 10px;
+}
+
+.current{
+    display: flex;
+    flex-grow: initial;
+    width:'330px';
+    background-color: rgb(42, 238, 24);
+    transition: all linear 1s;
+    border-radius: 10px;
+}
